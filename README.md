@@ -31,4 +31,4 @@ print(myGraph:PathTo(1, 5)) -- Out: {1, 3, 6, 5}, 20
 print(myGraph:PathTo(1, 8)) -- Out: {}, inf
 ```
 
-**Note:** Graph:PathTo requires the `Heap` module to run Dijkstra's algorithm.
+**Note:** Graph:PathTo requires the `Heap` module to run Dijkstra's algorithm. Place it in the same directory as the Graph module.
